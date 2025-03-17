@@ -1,0 +1,30 @@
+JAPAN_attack = {
+	icon = GFX_idea_generic_fascism_drift_bonus
+	max_dig_in_factor = -0.2
+}
+
+island_defences = {
+    icon = GFX_idea_generic_fascism_drift_bonus
+    production_speed_buildings_factor = 0.5
+}
+
+Universial_islands_local_supply = {
+	enable = { always = yes }
+	remove_trigger = {
+		OR = {
+			NOT = {
+				is_controlled_by = USA
+			}
+			JAP = {
+				NOT = {
+					has_idea = JAP_tora_tora_tora_idea
+				}
+				has_completed_focus = JAP_strike_the_west
+			}
+		}
+	}
+
+	icon = GFX_modifiers_generic_supply
+
+	local_supplies_for_controller = 5 #6
+}
