@@ -6760,7 +6760,7 @@ focus_tree = {
 							fixed_ship_deck_slot_1 = ship_deck_space
 							fixed_ship_deck_slot_2 = ship_deck_space
 							fixed_ship_anti_air_slot = ship_anti_air_1
-							fixed_ship_engine_slot = cruiser_ship_engine_2
+							fixed_ship_engine_slot = _ship_engine_2
 							fixed_ship_secondaries_slot = empty
 						}
 						design_team = mio:GER_deutsche_werke_organization
@@ -7574,8 +7574,6 @@ focus_tree = {
 			}
 
 			custom_effect_tooltip = generic_skip_one_line_tt
-
-			unlock_decision_tooltip = GER_refit_convoys_to_cruisers
 
 			custom_effect_tooltip = generic_skip_one_line_tt
 
